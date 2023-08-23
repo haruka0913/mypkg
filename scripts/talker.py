@@ -20,7 +20,7 @@ if __name__ == "__main__":
     
     talker = Talker()
     
-    rate = rospy.Rate(15)
+    rate = rospy.Rate(1)
     
     while not rospy.is_shutdown():
         talker.publish()
