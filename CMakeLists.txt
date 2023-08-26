@@ -65,10 +65,10 @@ add_message_files(
 #   Service2.srv
 # )
 
-#add_service_files(
-#    FILES
-#    AddTwoInt.srv
-#)
+add_service_files(
+    FILES
+    AddTwoInt.srv
+)
 
 ## Generate actions in the 'action' folder
 # add_action_files(
